@@ -10,7 +10,19 @@ public class LibraryUsers {
        booksRented.add(book);
    }
 
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
+    public String getUsername() {
+        return username;
+    }
 
-
+    @Override
+    public String toString() {
+        return "LibraryUsers{" +
+                "username='" + username + '\'' +
+                ", booksRented=" + booksRented +
+                '}';
+    }
 }

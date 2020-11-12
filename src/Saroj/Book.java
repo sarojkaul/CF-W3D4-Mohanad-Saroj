@@ -24,9 +24,9 @@ public class Book {
     }
 
     public static void main(String[] args) {
-        Book book1 = new Book("The Grass is Always Greener",10,"Jeffrey Archer");
-        Book book2 = new Book("A Boy at Seven",5,"John Bidwell");
-        Book book3 = new Book("The Open Boat",10,"Stephen Crane");
+        Book book1 = new Book("The Grass is Always Greener",1,"Jeffrey Archer");
+        Book book2 = new Book("A Boy at Seven",2,"John Bidwell");
+        Book book3 = new Book("The Open Boat",3,"Stephen Crane");
         ArrayList<Book> books = new ArrayList<>();
         books.add(book1);
         books.add(book2);
